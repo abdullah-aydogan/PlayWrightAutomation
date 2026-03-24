@@ -7,7 +7,9 @@ const config = ({
   reporter: 'html',
   use: {
     browserName: 'chromium',
-    headless: false
+    headless: false,
+    screenshot: 'on',
+    trace: 'retain-on-failure'
   }
 });
 
